@@ -50,8 +50,8 @@ I chose R as the data analysis tool since R is really powerful for making plots.
 ```
 #### Loading files
 ```{r}
-daily <- read.csv('cleaned/dailyActivity_merged.csv', header =TRUE)
-hourly <- read.csv('cleaned/Hourly_cleaned.csv', header =TRUE)
+daily <- read.csv('../file_analyzed/dailyActivity_merged.csv', header =TRUE)
+hourly <- read.csv('../file_analyzed/Hourly_cleaned.csv', header =TRUE)
 ```
 
 #### Sorting data
